@@ -1,0 +1,1009 @@
+{
+  "ida": {
+    "Estaci\u00f3n Autobuses Murcia": {
+      "ubicacion": "37.985226521,-1.138836697",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:45",
+          "8:15",
+          "12:45",
+          "14:15"
+        ],
+        "S\u00e1bados (laborables)": [
+          "6:45",
+          "8:15",
+          "12:45",
+          "14:15"
+        ]
+      }
+    },
+    "Malec\u00f3n / Plano de San Francisco": {
+      "ubicacion": "37.983363263,-1.134408879",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:47",
+          "8:17",
+          "12:47",
+          "14:17"
+        ],
+        "S\u00e1bados (laborables)": [
+          "6:47",
+          "8:17",
+          "12:47",
+          "14:17"
+        ]
+      }
+    },
+    "Alameda de Col\u00f3n (Jard\u00edn)": {
+      "ubicacion": "37.980190222,-1.130402185",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:49",
+          "8:19",
+          "12:49",
+          "14:19"
+        ],
+        "S\u00e1bados (laborables)": [
+          "6:49",
+          "8:19",
+          "12:49",
+          "14:19"
+        ]
+      }
+    },
+    "El Rollo, Avda. Ciudad de Almer\u00eda, 11": {
+      "ubicacion": "37.976196707,-1.134271942",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:50",
+          "8:20",
+          "12:50",
+          "14:20"
+        ],
+        "S\u00e1bados (laborables)": [
+          "6:51",
+          "8:21",
+          "12:51",
+          "14:21"
+        ]
+      }
+    },
+    "La Pur\u00edsima": {
+      "ubicacion": "37.975509157,-1.140379672",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:51",
+          "8:21",
+          "12:51",
+          "14:21"
+        ],
+        "S\u00e1bados (laborables)": [
+          "6:53",
+          "8:23",
+          "12:53",
+          "14:23"
+        ]
+      }
+    },
+    "Farmacia": {
+      "ubicacion": "37.975070271,-1.145661770",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:52",
+          "8:22",
+          "12:52",
+          "14:22"
+        ],
+        "S\u00e1bados (laborables)": [
+          "6:55",
+          "8:25",
+          "12:55",
+          "14:25"
+        ]
+      }
+    },
+    "Casas del Parra": {
+      "ubicacion": "37.974753426,-1.148458950",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:54",
+          "8:24",
+          "12:54",
+          "14:24"
+        ],
+        "S\u00e1bados (laborables)": [
+          "6:57",
+          "8:27",
+          "12:57",
+          "14:27"
+        ]
+      }
+    },
+    "Camino de Funes": {
+      "ubicacion": "37.974220575,-1.15467726",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:55",
+          "8:25",
+          "12:55",
+          "14:25"
+        ],
+        "S\u00e1bados (laborables)": [
+          "6:59",
+          "8:29",
+          "12:59",
+          "14:29"
+        ]
+      }
+    },
+    "Camino Rinc\u00f3n de Seca": {
+      "ubicacion": "37.973241963,-1.164139086",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:56",
+          "8:26",
+          "12:56",
+          "14:26"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:01",
+          "8:31",
+          "13:01",
+          "14:31"
+        ]
+      }
+    },
+    "Media Legua": {
+      "ubicacion": "37.972341846,-1.171720463",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:57",
+          "8:27",
+          "12:57",
+          "14:27"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:03",
+          "8:33",
+          "13:03",
+          "14:33"
+        ]
+      }
+    },
+    "Jazmines": {
+      "ubicacion": "37.972669578,-1.180056999",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:58",
+          "8:28",
+          "12:58",
+          "14:28"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:05",
+          "8:35",
+          "13:05",
+          "14:35"
+        ]
+      }
+    },
+    "Santiago": {
+      "ubicacion": "37.972899907,-1.189727954",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:59",
+          "8:29",
+          "12:59",
+          "14:29"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:07",
+          "8:37",
+          "13:07",
+          "14:37"
+        ]
+      }
+    },
+    "Camino Puebla de Soto": {
+      "ubicacion": "37.973241963,-1.164139086",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:00",
+          "8:30",
+          "13:00",
+          "14:30"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:09",
+          "8:39",
+          "13:09",
+          "14:39"
+        ]
+      }
+    },
+    "Senda El Pino": {
+      "ubicacion": "37.973268319,-1.201592764",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:01",
+          "8:31",
+          "13:01",
+          "14:31"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:10",
+          "8:40",
+          "13:10",
+          "14:40"
+        ]
+      }
+    },
+    "Hero": {
+      "ubicacion": "37.973297540,-1.206863403",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:02",
+          "8:32",
+          "13:02",
+          "14:32"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:11",
+          "8:41",
+          "13:11",
+          "14:41"
+        ]
+      }
+    },
+    "Iglesia San Pedro": {
+      "ubicacion": "37.972555560,-1.209096219",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:03",
+          "8:33",
+          "13:03",
+          "14:33"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:12",
+          "8:42",
+          "13:12",
+          "14:42"
+        ]
+      }
+    },
+    "Manila": {
+      "ubicacion": "37.970173774,-1.213006656",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:04",
+          "8:34",
+          "13:04",
+          "14:34"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:13",
+          "8:43",
+          "13:13",
+          "14:43"
+        ]
+      }
+    },
+    "El G\u00e1zquez": {
+      "ubicacion": "37.967591453,-1.217429317",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:06",
+          "8:36",
+          "13:06",
+          "14:36"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:14",
+          "8:44",
+          "13:14",
+          "14:44"
+        ]
+      }
+    },
+    "La Palmera": {
+      "ubicacion": "37.965159820,-1.22108536",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:08",
+          "8:38",
+          "13:08",
+          "14:38"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:15",
+          "8:45",
+          "13:15",
+          "14:45"
+        ]
+      }
+    },
+    "Avi\u00f3n": {
+      "ubicacion": "37.963661536,-1.223329637",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:10",
+          "8:40",
+          "13:10",
+          "14:40"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:16",
+          "8:46",
+          "13:16",
+          "14:46"
+        ]
+      }
+    },
+    "Escuelas": {
+      "ubicacion": "37.960452972,-1.22032218",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:11",
+          "8:41",
+          "13:11",
+          "14:41"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:17",
+          "8:47",
+          "13:17",
+          "14:47"
+        ]
+      }
+    },
+    "Las Tejeras": {
+      "ubicacion": "37.961927766,-1.21832886",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:12",
+          "8:42",
+          "13:12",
+          "14:42"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:18",
+          "8:48",
+          "13:18",
+          "14:48"
+        ]
+      }
+    },
+    "Avenida Del Descubrimiento I": {
+      "ubicacion": "37.959066987,-1.205616073",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:14",
+          "8:44",
+          "13:14",
+          "14:44"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:19",
+          "8:49",
+          "13:19",
+          "14:49"
+        ]
+      }
+    },
+    "Avenida Del Descubrimiento II": {
+      "ubicacion": "37.958011599,-1.203183295",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:15",
+          "8:45",
+          "13:15",
+          "14:45"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:21",
+          "8:51",
+          "13:21",
+          "14:51"
+        ]
+      }
+    },
+    "Avenida Del Descubrimiento III": {
+      "ubicacion": "37.956206782,-1.198321748",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:16",
+          "8:46",
+          "13:16",
+          "14:46"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:22",
+          "8:52",
+          "13:22",
+          "14:52"
+        ]
+      }
+    },
+    "Avenida Del Descubrimiento IV": {
+      "ubicacion": "37.953683476,-1.191873108",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:17",
+          "8:47",
+          "13:17",
+          "14:47"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:24",
+          "8:54",
+          "13:24",
+          "14:54"
+        ]
+      }
+    },
+    "Avenida Del Descubrimiento V": {
+      "ubicacion": "37.952578240,-1.189134370",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:18",
+          "8:48",
+          "13:18",
+          "14:48"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:26",
+          "8:56",
+          "13:26",
+          "14:56"
+        ]
+      }
+    },
+    "Avenida Del Descubrimiento VI": {
+      "ubicacion": "37.950718419,-1.184263655",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:19",
+          "8:49",
+          "13:19",
+          "14:49"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:28",
+          "8:58",
+          "13:28",
+          "14:58"
+        ]
+      }
+    },
+    "Pol\u00edgono Industrial Oeste": {
+      "ubicacion": "37.948391638,-1.17714007",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:20",
+          "8:50",
+          "13:20",
+          "14:50"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:30",
+          "9:00",
+          "13:30",
+          "15:00"
+        ]
+      }
+    }
+  },
+  "vuelta": {
+    "Pol\u00edgono Industrial Oeste": {
+      "ubicacion": "37.948651761,-1.177076473",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:30",
+          "9:00",
+          "13:30",
+          "15:30"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:30",
+          "9:00",
+          "13:30",
+          "15:00"
+        ]
+      }
+    },
+    "Avenida Del Descubrimiento VI": {
+      "ubicacion": "37.950870253,-1.184180003",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:31",
+          "9:01",
+          "13:31",
+          "15:31"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:31",
+          "9:01",
+          "13:31",
+          "15:01"
+        ]
+      }
+    },
+    "Avenida Del Descubrimiento V": {
+      "ubicacion": "37.952848103,-1.189105149",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:32",
+          "9:02",
+          "13:32",
+          "15:32"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:32",
+          "9:02",
+          "13:32",
+          "15:02"
+        ]
+      }
+    },
+    "Avenida Del Descubrimiento IV": {
+      "ubicacion": "37.954045585,-1.191977959",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:33",
+          "9:03",
+          "13:33",
+          "15:33"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:33",
+          "9:03",
+          "13:33",
+          "15:03"
+        ]
+      }
+    },
+    "Avenida Del Descubrimiento III": {
+      "ubicacion": "37.956430236,-1.198190540",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:34",
+          "9:04",
+          "13:34",
+          "15:34"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:34",
+          "9:04",
+          "13:34",
+          "15:04"
+        ]
+      }
+    },
+    "Avenida Del Descubrimiento II": {
+      "ubicacion": "37.958261409,-1.203017710",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:35",
+          "9:05",
+          "13:35",
+          "15:35"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:35",
+          "9:05",
+          "13:35",
+          "15:05"
+        ]
+      }
+    },
+    "Avenida Del Descubrimiento I": {
+      "ubicacion": "37.959394146,-1.205801139",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:36",
+          "9:06",
+          "13:36",
+          "15:36"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:36",
+          "9:06",
+          "13:36",
+          "15:06"
+        ]
+      }
+    },
+    "Las Tejeras": {
+      "ubicacion": "37.961955841,-1.218419388",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:38",
+          "9:08",
+          "13:38",
+          "15:38"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:38",
+          "9:08",
+          "13:38",
+          "15:08"
+        ]
+      }
+    },
+    "Escuelas": {
+      "ubicacion": "37.960481047,-1.220401249",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:39",
+          "9:09",
+          "13:39",
+          "15:39"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:39",
+          "9:09",
+          "13:39",
+          "15:09"
+        ]
+      }
+    },
+    "Avi\u00f3n": {
+      "ubicacion": "37.963643774,-1.223352555",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:40",
+          "9:10",
+          "13:40",
+          "15:40"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:40",
+          "9:10",
+          "13:40",
+          "15:00"
+        ]
+      }
+    },
+    "La Palmera": {
+      "ubicacion": "37.965133464,-1.221131198",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:42",
+          "9:12",
+          "13:42",
+          "15:42"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:42",
+          "9:12",
+          "13:42",
+          "15:12"
+        ]
+      }
+    },
+    "El G\u00e1zquez": {
+      "ubicacion": "37.967644165,-1.217348530",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:44",
+          "9:14",
+          "13:44",
+          "15:44"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:44",
+          "9:14",
+          "13:44",
+          "15:14"
+        ]
+      }
+    },
+    "Manila": {
+      "ubicacion": "37.970147418,-1.213053066",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:46",
+          "9:16",
+          "13:46",
+          "15:46"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:46",
+          "9:16",
+          "13:46",
+          "15:16"
+        ]
+      }
+    },
+    "Iglesia San Pedro": {
+      "ubicacion": "37.972557279,-1.208957563",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:47",
+          "9:17",
+          "13:47",
+          "15:47"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:47",
+          "9:17",
+          "13:47",
+          "15:17"
+        ]
+      }
+    },
+    "Hero": {
+      "ubicacion": "37.973285508,-1.206054959",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:48",
+          "9:18",
+          "13:48",
+          "15:48"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:48",
+          "9:18",
+          "13:48",
+          "15:18"
+        ]
+      }
+    },
+    "Senda El Pino": {
+      "ubicacion": "37.973208732,-1.201639746",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:49",
+          "9:19",
+          "13:49",
+          "15:49"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:49",
+          "9:19",
+          "13:49",
+          "15:19"
+        ]
+      }
+    },
+    "Camino Puebla de Soto": {
+      "ubicacion": "37.973028823,-1.195189388",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:50",
+          "9:20",
+          "13:50",
+          "15:50"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:50",
+          "9:20",
+          "13:50",
+          "15:20"
+        ]
+      }
+    },
+    "Santiago": {
+      "ubicacion": "37.972915950,-1.190171423",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:51",
+          "9:21",
+          "13:51",
+          "15:51"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:51",
+          "9:21",
+          "13:51",
+          "15:21"
+        ]
+      }
+    },
+    "Jazmines": {
+      "ubicacion": "37.972672443,-1.18022774",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "07:52",
+          "09:22",
+          "13:52",
+          "15:52"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:52",
+          "9:22",
+          "13:52",
+          "15:22"
+        ]
+      }
+    },
+    "Media Legua": {
+      "ubicacion": "37.972502848,-1.172798197",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:53",
+          "9:23",
+          "13:53",
+          "15:53"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:53",
+          "9:23",
+          "13:53",
+          "15:23"
+        ]
+      }
+    },
+    "Camino Rinc\u00f3n de Seca": {
+      "ubicacion": "37.973218472,-1.164367123",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:54",
+          "9:24",
+          "13:54",
+          "15:54"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:54",
+          "9:24",
+          "13:54",
+          "15:24"
+        ]
+      }
+    },
+    "Camino de Funes": {
+      "ubicacion": "37.974109994,-1.154520270",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:55",
+          "9:25",
+          "13:55",
+          "15:55"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:55",
+          "9:25",
+          "13:55",
+          "15:25"
+        ]
+      }
+    },
+    "Casas del Parra": {
+      "ubicacion": "37.974782074,-1.148538018",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:56",
+          "9:26",
+          "13:56",
+          "15:56"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:56",
+          "9:26",
+          "13:56",
+          "15:26"
+        ]
+      }
+    },
+    "Chirrete": {
+      "ubicacion": "37.975305757,-1.144039153",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:58",
+          "9:28",
+          "13:58",
+          "15:58"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:58",
+          "9:28",
+          "13:58",
+          "15:28"
+        ]
+      }
+    },
+    "La Pur\u00edsima": {
+      "ubicacion": "37.975654115,-1.140421498",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:59",
+          "9:29",
+          "13:59",
+          "15:59"
+        ],
+        "S\u00e1bados (laborables)": [
+          "7:59",
+          "9:29",
+          "13:59",
+          "15:29"
+        ]
+      }
+    },
+    "El Rollo, Avda. Ciudad de Almer\u00eda, 11": {
+      "ubicacion": "37.976196707,-1.134271942",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:00",
+          "9:30",
+          "14:00",
+          "16:00"
+        ],
+        "S\u00e1bados (laborables)": [
+          "8:00",
+          "9:30",
+          "14:00",
+          "15:30"
+        ]
+      }
+    },
+    "Alameda de Col\u00f3n, 11": {
+      "ubicacion": "37.980272155,-1.130434270",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:01",
+          "9:31",
+          "14:01",
+          "16:01"
+        ],
+        "S\u00e1bados (laborables)": [
+          "8:01",
+          "9:31",
+          "14:01",
+          "15:31"
+        ]
+      }
+    },
+    "Glorieta de Espa\u00f1a": {
+      "ubicacion": "37.983007456,-1.13072877",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:03",
+          "9:33",
+          "14:03",
+          "16:03"
+        ],
+        "S\u00e1bados (laborables)": [
+          "8:03",
+          "9:33",
+          "14:03",
+          "15:33"
+        ]
+      }
+    },
+    "Malec\u00f3n / Plano de San Francisco": {
+      "ubicacion": "37.983234920,-1.134833440",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:05",
+          "9:35",
+          "14:05",
+          "16:05"
+        ],
+        "S\u00e1bados (laborables)": [
+          "8:05",
+          "9:35",
+          "14:05",
+          "15:35"
+        ]
+      }
+    },
+    "Estaci\u00f3n Autobuses Murcia": {
+      "ubicacion": "37.985226521,-1.138836697",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:07",
+          "9:37",
+          "14:07",
+          "16:07"
+        ],
+        "S\u00e1bados (laborables)": [
+          "8:07",
+          "9:37",
+          "14:07",
+          "15:37"
+        ]
+      }
+    }
+  }
+}

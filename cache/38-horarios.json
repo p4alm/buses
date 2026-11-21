@@ -1,0 +1,328 @@
+{
+  "ida": {
+    "Barrio del Carmen II": {
+      "ubicacion": "38.013986170502854, -1.2099236035184366",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:00",
+          "10:00",
+          "12:30"
+        ]
+      }
+    },
+    "Las Pe\u00f1etas II": {
+      "ubicacion": "38.01938361504279, -1.210784546754434",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:01",
+          "10:01",
+          "12:31"
+        ]
+      }
+    },
+    "La Rambla II": {
+      "ubicacion": "38.02356420049684, -1.2088212239639065",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:02",
+          "10:02",
+          "12:32"
+        ]
+      }
+    },
+    "Plaza de La Constituci\u00f3n II": {
+      "ubicacion": "38.02605793403795, -1.2092965811202254",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:04",
+          "10:04",
+          "12:34"
+        ]
+      }
+    },
+    "La Balsa II": {
+      "ubicacion": "38.02896116921346, -1.2085266406543322",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:03",
+          "10:03",
+          "12:03"
+        ]
+      }
+    },
+    "Los Jaimes II": {
+      "ubicacion": "38.03067250545842, -1.2092861346163346",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:04",
+          "10:04",
+          "12:04"
+        ]
+      }
+    },
+    "Casas Altas II": {
+      "ubicacion": "38.03388678736756, -1.2119436736144977",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:05",
+          "10:05",
+          "12:35"
+        ]
+      }
+    },
+    "Plaza de Torrealta II": {
+      "ubicacion": "38.035866218825056, -1.2118187854174358",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:05",
+          "10:05",
+          "12:35"
+        ]
+      }
+    },
+    "Las Totanas II": {
+      "ubicacion": "38.03921417343542, -1.2112286823811866",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:06",
+          "10:06",
+          "12:36"
+        ]
+      }
+    },
+    "Ayuntamiento II": {
+      "ubicacion": "38.05550589009801, -1.213247952284907",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:11"
+        ]
+      }
+    },
+    "La Cruz II": {
+      "ubicacion": "38.050928763473735, -1.2105613366470935",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:13"
+        ]
+      }
+    },
+    "San Roque II": {
+      "ubicacion": "38.04748011284988, -1.208328194067686",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:15"
+        ]
+      }
+    },
+    "Gasolinera Petropay": {
+      "ubicacion": "38.02009067353851, -1.1634376717348527",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:21"
+        ]
+      }
+    },
+    "Cruce del Puntal II": {
+      "ubicacion": "Cruce+del+Puntal/@38.012745,-1.1523002,112m/data=!3m1!1e3!4m6!3m5!1s0xd63819faa6a423d:0xd99f115ab9d01497!8m2!3d38.0125756!4d-1.1520728!16s%2Fg%2F1tj2dbf",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:23",
+          "10:14",
+          "12:44"
+        ]
+      }
+    },
+    "Senda de Granada II": {
+      "ubicacion": "38%C2%B000'11.7%22N+1%C2%B008'30.5%22W/@38.00325,-1.1418056,449m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d38.00325!4d-1.1418056",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:24",
+          "10:15",
+          "12:45"
+        ]
+      }
+    },
+    "Carrefour II": {
+      "ubicacion": "38.00172694823501, -1.1402723338779",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:25",
+          "10:16",
+          "12:46"
+        ]
+      }
+    },
+    "Biblioteca-Pabell\u00f3n II": {
+      "ubicacion": "37.99779483428675,%20-1.1362866492649126",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:26",
+          "10:17",
+          "12:47"
+        ]
+      }
+    },
+    "Barn\u00e9s II": {
+      "ubicacion": "37.99494150684444, -1.1333224915677005",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:27",
+          "10:18",
+          "12:48"
+        ]
+      }
+    },
+    "Plaza Circular, 14 (Mercadona)": {
+      "ubicacion": "37.992703637365295, -1.129669812495367",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:30",
+          "10:21",
+          "12:51"
+        ]
+      }
+    }
+  },
+  "vuelta": {
+    "Plaza Circular, 14 (Mercadona)": {
+      "ubicacion": "37.992703637365295,-1.129669812495367",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:30",
+          "12:00",
+          "14:00"
+        ]
+      }
+    },
+    "Barn\u00e9s I": {
+      "ubicacion": "37%C2%B059'42.4%22N+1%C2%B007'59.0%22W/@37.9951111,-1.1330556,449m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d37.9951111!4d-1.1330556",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:01"
+        ]
+      }
+    },
+    "Biblioteca-Pabell\u00f3n I": {
+      "ubicacion": "37%C2%B059'55.8%22N+1%C2%B008'12.2%22W/@37.9988333,-1.1367222,449m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d37.9988333!4d-1.1367222",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:02"
+        ]
+      }
+    },
+    "Carrefour I": {
+      "ubicacion": "38%C2%B000'09.0%22N+1%C2%B008'25.2%22W/@38.0025,-1.1403333,449m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d38.0025!4d-1.1403333",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:03"
+        ]
+      }
+    },
+    "Senda de Granada I": {
+      "ubicacion": "38%C2%B000'16.2%22N+1%C2%B008'32.5%22W/@38.0045,-1.1423611,449m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d38.0045!4d-1.14236",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:04"
+        ]
+      }
+    },
+    "Cruce del Puntal I": {
+      "ubicacion": "Cruce+del+Puntal/@38.0128463,-1.1525189,112m/data=!3m1!1e3!4m6!3m5!1s0xd63819fab743697:0xba255af076f116be!8m2!3d38.0130001!4d-1.1523564!16s%2Fg%2F1vzqtlh5",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:06"
+        ]
+      }
+    },
+    "Gasolinera Petropay": {
+      "ubicacion": "38.02009067353851,-1.1634376717348527",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:09"
+        ]
+      }
+    },
+    "Facultad de Medicina": {
+      "ubicacion": "38.02359394179858,-1.1687432229131662",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:10"
+        ]
+      }
+    },
+    "Las Totanas I": {
+      "ubicacion": "38.03923322496159,-1.211419126810594",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:17"
+        ]
+      }
+    },
+    "Plaza de Torrealta I": {
+      "ubicacion": "38.03566131492587,-1.211982430434559",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:18"
+        ]
+      }
+    },
+    "Casas Altas I": {
+      "ubicacion": "38.03388678736756,-1.2119436736144977",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:19"
+        ]
+      }
+    },
+    "Los Jaimes I": {
+      "ubicacion": "38.030709085890756,-1.2094642138878213",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:20"
+        ]
+      }
+    },
+    "La Balsa I": {
+      "ubicacion": "38.02889990411776,-1.2086231578730586",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:21"
+        ]
+      }
+    },
+    "Plaza Constituci\u00f3n I": {
+      "ubicacion": "38.025707173089216,-1.2094896978642646",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:22"
+        ]
+      }
+    },
+    "La Rambla I": {
+      "ubicacion": "38.02366660342684,-1.2089641635144888",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:23"
+        ]
+      }
+    },
+    "Las Pe\u00f1etas I": {
+      "ubicacion": "38.0192416554264,-1.2108532783557906",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:24"
+        ]
+      }
+    },
+    "Barrio del carmen I": {
+      "ubicacion": "38.01429472620323,-1.2098860492326045",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:55",
+          "12:25",
+          "14:25"
+        ]
+      }
+    }
+  }
+}

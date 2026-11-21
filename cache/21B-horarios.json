@@ -1,0 +1,1046 @@
+{
+  "ida": {
+    "Iglesia de la Basca": {
+      "ubicacion": "NwzZuk4q97WC767G8?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:00",
+          "17:30"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:00",
+          "18:00"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:00",
+          "17:30"
+        ]
+      }
+    },
+    "Beniel": {
+      "ubicacion": "LnwteRB4b8U6AyK5A?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:04",
+          "17:34"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:04",
+          "18:04"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:04",
+          "17:34"
+        ]
+      }
+    },
+    "Iglesia": {
+      "ubicacion": "ANYAwQQvEwdCehqB8?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:09",
+          "17:39"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:09",
+          "18:09"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:09",
+          "17:39"
+        ]
+      }
+    },
+    "Puente Beniel": {
+      "ubicacion": "jc9829twMJ9G9AeH8",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:10",
+          "17:40"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:10",
+          "18:10"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:10",
+          "17:40"
+        ]
+      }
+    },
+    "Camino del Puente": {
+      "ubicacion": "FrJSaEGieNb4G5rP7",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:12",
+          "17:42"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:12",
+          "18:12"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:12",
+          "17:42"
+        ]
+      }
+    },
+    "Tres Puentes": {
+      "ubicacion": "NsVAH4v11huWTwq9",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:13",
+          "17:43"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:13",
+          "18:13"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:13",
+          "17:43"
+        ]
+      }
+    },
+    "Domingo Abell\u00e1n": {
+      "ubicacion": "Qorcunjoox2RCuyw8",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:16",
+          "17:46"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:16",
+          "18:16"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:16",
+          "17:46"
+        ]
+      }
+    },
+    "La Revolcada": {
+      "ubicacion": "9HLEHof5HusPsEA8",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:17",
+          "17:47"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:17",
+          "18:17"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:17",
+          "17:47"
+        ]
+      }
+    },
+    "Cruce de Alquer\u00edas": {
+      "ubicacion": "95nLeqaQ3b2sMrB6",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:17",
+          "17:47"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:17",
+          "18:17"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:17",
+          "17:47"
+        ]
+      }
+    },
+    "Carril Los Pinchas": {
+      "ubicacion": "vsiES6GJDawT8NV8",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:18",
+          "17:48"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:18",
+          "18:18"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:18",
+          "17:48"
+        ]
+      }
+    },
+    "Escuelas Viejas": {
+      "ubicacion": "BYJPoNdzoqmzQKZA",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:19",
+          "17:49"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:19",
+          "18:19"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:19",
+          "17:49"
+        ]
+      }
+    },
+    "La Cayuela": {
+      "ubicacion": "Tw9cbUhAg58pGSzNA",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:20",
+          "17:50"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:20",
+          "18:20"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:20",
+          "17:50"
+        ]
+      }
+    },
+    "Rambla": {
+      "ubicacion": "8cHXRntXRu3yMZ66",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:21",
+          "17:51"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:21",
+          "18:21"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:21",
+          "17:51"
+        ]
+      }
+    },
+    "Oliva": {
+      "ubicacion": "xJwktN3yVadDWLVm9",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:22",
+          "17:52"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:22",
+          "18:22"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:22",
+          "17:52"
+        ]
+      }
+    },
+    "Pitarque": {
+      "ubicacion": "d3PnGyp2p1RBkGqz6",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:23",
+          "17:53"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:23",
+          "18:23"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:23",
+          "17:53"
+        ]
+      }
+    },
+    "Puente del Rey": {
+      "ubicacion": "diaQt6LP9bGfdBxh6?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:24",
+          "17:54"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:24",
+          "18:24"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:24",
+          "17:54"
+        ]
+      }
+    },
+    "El Piloto": {
+      "ubicacion": "6ds4eTrSwHNL6K8HA",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:25",
+          "17:55"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:25",
+          "18:25"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:25",
+          "17:55"
+        ]
+      }
+    },
+    "Puente del Azarbe": {
+      "ubicacion": "PzrYMnrBssVaKSfcA",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:26",
+          "17:56"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:26",
+          "18:26"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:26",
+          "17:56"
+        ]
+      }
+    },
+    "Puente Azarbe": {
+      "ubicacion": "RfTxb8XPi8rs4oUD8",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:29",
+          "17:59"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:29",
+          "18:29"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:29",
+          "17:59"
+        ]
+      }
+    },
+    "El Pocero": {
+      "ubicacion": "8uRuZRnEEZydgC88",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:31",
+          "18:01"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:31",
+          "18:31"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:31",
+          "18:01"
+        ]
+      }
+    },
+    "Zarandona": {
+      "ubicacion": "3qMT7ss5XzJMeqe58",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:32",
+          "18:02"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:32",
+          "18:32"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:32",
+          "18:02"
+        ]
+      }
+    },
+    "Palacio de los Deportes": {
+      "ubicacion": "7EdD28r77wrBFr16",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:34",
+          "18:04"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:34",
+          "18:34"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:34",
+          "18:04"
+        ]
+      }
+    },
+    "Asilo de Ancianos": {
+      "ubicacion": "dkiEMUhBCoiqCu5",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:36",
+          "18:06"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:36",
+          "18:36"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:36",
+          "18:06"
+        ]
+      }
+    },
+    "Hospital Reina Sof\u00eda": {
+      "ubicacion": "JCGiKtLpjcudcBj7",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:41",
+          "18:11"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:41",
+          "18:41"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:41",
+          "18:11"
+        ]
+      }
+    },
+    "Glorieta de Espa\u00f1a": {
+      "ubicacion": "CyqNUWHXwKCUAGt6",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:43",
+          "18:13"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:43",
+          "18:43"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:43",
+          "18:13"
+        ]
+      }
+    },
+    "Estaci\u00f3n Autobuses Murcia": {
+      "ubicacion": "W91Jr3g3iMDuEfP7?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "10:46",
+          "18:16"
+        ],
+        "S\u00e1bados (laborables)": [
+          "11:46",
+          "18:46"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "10:46",
+          "18:16"
+        ]
+      }
+    }
+  },
+  "vuelta": {
+    "Estaci\u00f3n Autobuses Murcia": {
+      "ubicacion": "W91Jr3g3iMDuEfP7?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:00",
+          "16:30",
+          "20:30"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:00",
+          "17:00"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:00",
+          "16:30",
+          "20:30"
+        ]
+      }
+    },
+    "Glorieta de Espa\u00f1a": {
+      "ubicacion": "TTyH41W5r5PutPM6",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:02",
+          "16:32",
+          "20:32"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:02",
+          "17:02"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:02",
+          "16:32",
+          "20:32"
+        ]
+      }
+    },
+    "Hospital Reina Sof\u00eda": {
+      "ubicacion": "DqNE8vvCsVXJnLH36",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:07",
+          "16:37",
+          "20:37"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:07",
+          "17:07"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:07",
+          "16:37",
+          "20:37"
+        ]
+      }
+    },
+    "Asilo de Ancianos": {
+      "ubicacion": "5eBDpfY1gHExv5857",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:09",
+          "16:39",
+          "20:39"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:09",
+          "17:09"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:09",
+          "16:39",
+          "20:39"
+        ]
+      }
+    },
+    "Palacio de los Deportes": {
+      "ubicacion": "TDmQqik3sBEKXV9",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:11",
+          "16:41",
+          "20:41"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:11",
+          "17:11"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:11",
+          "16:41",
+          "20:41"
+        ]
+      }
+    },
+    "Zarandona": {
+      "ubicacion": "DnTC79tBmiR7zcai7?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:12",
+          "16:42",
+          "20:42"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:12",
+          "17:12"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:12",
+          "16:42",
+          "20:42"
+        ]
+      }
+    },
+    "El Pocero": {
+      "ubicacion": "8Gru3M32jmfJ9w756?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:14",
+          "16:44",
+          "20:44"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:14",
+          "17:14"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:14",
+          "16:44",
+          "20:44"
+        ]
+      }
+    },
+    "Puente Azarbe": {
+      "ubicacion": "Q551p2eYvS6gTmjf9?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:17",
+          "16:47",
+          "20:47"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:17",
+          "17:17"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:17",
+          "16:47",
+          "20:47"
+        ]
+      }
+    },
+    "Puente del Azarbe": {
+      "ubicacion": "JGX78W6n2xPAphEMA?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:18",
+          "16:48",
+          "20:48"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:18",
+          "17:18"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:18",
+          "16:48",
+          "20:48"
+        ]
+      }
+    },
+    "El Piloto": {
+      "ubicacion": "VtsTJKkj8H1NKgtv8?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:19",
+          "16:49",
+          "20:49"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:19",
+          "17:19"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:19",
+          "16:49",
+          "20:49"
+        ]
+      }
+    },
+    "Puente del Rey": {
+      "ubicacion": "6suHTnZV8z1abJVYA",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:20",
+          "16:50",
+          "20:50"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:20",
+          "17:20"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:20",
+          "16:50",
+          "20:50"
+        ]
+      }
+    },
+    "Pitarque": {
+      "ubicacion": "XFVBNdhcik1RcjBr7?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:21",
+          "16:51",
+          "20:51"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:21",
+          "17:21"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:21",
+          "16:51",
+          "20:51"
+        ]
+      }
+    },
+    "Oliva": {
+      "ubicacion": "NWktay3Nss2JEAXZ9",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:22",
+          "16:52",
+          "20:52"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:22",
+          "17:22"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:22",
+          "16:52",
+          "20:52"
+        ]
+      }
+    },
+    "Rambla": {
+      "ubicacion": "GcRnquiHGpW1Ud6H8?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:23",
+          "16:53",
+          "20:53"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:23",
+          "17:23"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:23",
+          "16:53",
+          "20:53"
+        ]
+      }
+    },
+    "La Cayuela": {
+      "ubicacion": "BpucjJEiLappjb4D8?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:24",
+          "16:54",
+          "20:54"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:24",
+          "17:24"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:24",
+          "16:54",
+          "20:54"
+        ]
+      }
+    },
+    "Escuelas Viejas": {
+      "ubicacion": "TJprWVZgwcg1JSHA?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:25",
+          "16:55",
+          "20:55"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:25",
+          "17:25"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:25",
+          "16:55",
+          "20:55"
+        ]
+      }
+    },
+    "Carril Los Pinchas": {
+      "ubicacion": "xaXYUov1dfU1MALT8?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:26",
+          "16:56",
+          "20:56"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:26",
+          "17:26"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:26",
+          "16:56",
+          "20:56"
+        ]
+      }
+    },
+    "Cruce de Alquer\u00edas": {
+      "ubicacion": "Fqc7gnVEE14HnVDa7?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:27",
+          "16:57",
+          "20:57"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:27",
+          "17:27"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:27",
+          "16:57",
+          "20:57"
+        ]
+      }
+    },
+    "La Revolcada": {
+      "ubicacion": "vy1ZWHf8fKXC29?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:28",
+          "16:58",
+          "20:58"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:28",
+          "17:28"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:28",
+          "16:58",
+          "20:58"
+        ]
+      }
+    },
+    "Domingo Abell\u00e1n": {
+      "ubicacion": "Y6Tk5Xpf2gg18Cnj7",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:31",
+          "17:01",
+          "20:01"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:31",
+          "17:31"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:31",
+          "17:01",
+          "20:01"
+        ]
+      }
+    },
+    "Tres Puentes": {
+      "ubicacion": "NnjjFikT4xkBEfHEA",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:32",
+          "17:02",
+          "21:02"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:32",
+          "17:32"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:32",
+          "17:02",
+          "21:02"
+        ]
+      }
+    },
+    "Camino del Puente": {
+      "ubicacion": "FrJSaEGieNb4G5rP7",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:34",
+          "17:04",
+          "21:04"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:34",
+          "17:34"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:34",
+          "17:04",
+          "21:04"
+        ]
+      }
+    },
+    "Puente Beniel": {
+      "ubicacion": "dy13MLhpfrB7sxdf7",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:35",
+          "17:05",
+          "21:05"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:35",
+          "17:35"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:35",
+          "17:05",
+          "21:05"
+        ]
+      }
+    },
+    "Iglesia": {
+      "ubicacion": "ANYAwQQvEwdCehqB8?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:40",
+          "17:10",
+          "21:10"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:40",
+          "17:40"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:40",
+          "17:10",
+          "21:10"
+        ]
+      }
+    },
+    "Beniel": {
+      "ubicacion": "LnwteRB4b8U6AyK5A?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:45",
+          "17:15",
+          "21:15"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:45",
+          "17:45"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:45",
+          "17:15",
+          "21:15"
+        ]
+      }
+    },
+    "Iglesia de la Basca": {
+      "ubicacion": "NwzZuk4q97WC767G8?g_",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:46",
+          "17:16",
+          "21:16"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:46",
+          "17:46"
+        ]
+      },
+      "Verano": {
+        "Lunes a Viernes (laborables)": [
+          "9:46",
+          "17:16",
+          "21:16"
+        ]
+      }
+    }
+  }
+}

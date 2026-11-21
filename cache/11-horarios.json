@@ -1,0 +1,412 @@
+{
+  "ida": {
+    "Centro de Salud Casco": {
+      "ubicacion": "37.969804216,-1.205297509",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:00",
+          "8:10",
+          "9:45",
+          "12:00",
+          "13:30",
+          "15:00",
+          "20:00"
+        ]
+      }
+    },
+    "Calle Trovero Miguel Mar\u00edn": {
+      "ubicacion": "37.971407925,-1.205850413",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:01",
+          "8:11",
+          "9:46",
+          "12:01",
+          "13:31",
+          "15:01",
+          "20:01"
+        ]
+      }
+    },
+    "Iglesia San Pedro": {
+      "ubicacion": "37.972557279,-1.208957563",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:03",
+          "8:13",
+          "9:48",
+          "12:03",
+          "13:33",
+          "15:03",
+          "20:03"
+        ]
+      }
+    },
+    "Manila": {
+      "ubicacion": "37.970147418,-1.213053066",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:05",
+          "8:15",
+          "9:50",
+          "12:05",
+          "13:35",
+          "15:05",
+          "20:05"
+        ]
+      }
+    },
+    "Alejo": {
+      "ubicacion": "37.969656966,-1.216343562",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:07",
+          "8:17",
+          "9:52",
+          "12:07",
+          "13:37",
+          "15:07",
+          "20:07"
+        ]
+      }
+    },
+    "Carides": {
+      "ubicacion": "37.970911171,-1.218225729",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:08",
+          "8:18",
+          "9:53",
+          "12:08",
+          "13:38",
+          "15:08",
+          "20:08"
+        ]
+      }
+    },
+    "Centro de Salud": {
+      "ubicacion": "37.974780355,-1.219042766",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:09",
+          "8:19",
+          "9:54",
+          "12:09",
+          "13:39",
+          "15:09",
+          "20:09"
+        ]
+      }
+    },
+    "Cruce Javal\u00ed Nuevo": {
+      "ubicacion": "37.974961409,-1.219675885",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:10",
+          "8:20",
+          "9:55",
+          "12:10",
+          "13:40",
+          "15:10",
+          "20:10"
+        ]
+      }
+    },
+    "Gasolinera": {
+      "ubicacion": "37.978671311,-1.219483944",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:11",
+          "8:21",
+          "9:56",
+          "12:11",
+          "13:41",
+          "15:11",
+          "20:11"
+        ]
+      }
+    },
+    "Barrio Santa Mar\u00eda": {
+      "ubicacion": "37.983619948,-1.219557856",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:12",
+          "8:22",
+          "9:57",
+          "12:12",
+          "13:42",
+          "15:12",
+          "20:12"
+        ]
+      }
+    },
+    "Universidad Cat\u00f3lica": {
+      "ubicacion": "37.992136965,-1.186613355",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:32",
+          "8:42",
+          "10:17",
+          "12:32",
+          "14:02",
+          "15:32",
+          "20:32"
+        ]
+      }
+    },
+    "Agridulce": {
+      "ubicacion": "38.012711307,-1.169772407",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:40",
+          "8:50",
+          "10:25",
+          "12:40",
+          "14:10",
+          "15:40",
+          "20:40"
+        ]
+      }
+    },
+    "Luis Vives": {
+      "ubicacion": "38.016923120,-1.17286867",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:42",
+          "8:52",
+          "10:27",
+          "12:42",
+          "14:12",
+          "15:42",
+          "20:42"
+        ]
+      }
+    },
+    "Inform\u00e1tica": {
+      "ubicacion": "38.020781417,-1.171212250",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:43",
+          "8:53",
+          "10:28",
+          "12:43",
+          "14:13",
+          "15:43",
+          "20:43"
+        ]
+      }
+    },
+    "Bellas Artes": {
+      "ubicacion": "38.024931351,-1.174389874",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:45",
+          "8:55",
+          "10:30",
+          "12:45",
+          "14:15",
+          "15:45",
+          "20:45"
+        ]
+      }
+    }
+  },
+  "vuelta": {
+    "Bellas Artes": {
+      "ubicacion": "38.024931351,-1.174389874",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:00",
+          "10:30",
+          "12:45",
+          "14:15",
+          "15:45",
+          "19:00",
+          "21:00"
+        ]
+      }
+    },
+    "Biol\u00f3gicas": {
+      "ubicacion": "38.020363731,-1.171598423",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:02",
+          "10:32",
+          "12:47",
+          "14:17",
+          "15:47",
+          "19:02",
+          "21:02"
+        ]
+      }
+    },
+    "Apartamentos Campus": {
+      "ubicacion": "38.015902109,-1.173862180",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:04",
+          "10:34",
+          "12:49",
+          "14:19",
+          "15:49",
+          "19:04",
+          "21:04"
+        ]
+      }
+    },
+    "Agridulce": {
+      "ubicacion": "38.012430557,-1.169107776",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:06",
+          "10:36",
+          "12:51",
+          "14:21",
+          "15:51",
+          "19:06",
+          "21:06"
+        ]
+      }
+    },
+    "Universidad Cat\u00f3lica": {
+      "ubicacion": "37.992136965,-1.186613355",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:08",
+          "10:38",
+          "12:53",
+          "14:23",
+          "15:53",
+          "19:08",
+          "21:08"
+        ]
+      }
+    },
+    "Barrio Santa Mar\u00eda": {
+      "ubicacion": "37.983385608,-1.219575044",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:31",
+          "11:01",
+          "13:16",
+          "14:46",
+          "16:16",
+          "19:31",
+          "21:31"
+        ]
+      }
+    },
+    "Gasolinera": {
+      "ubicacion": "37.978067987,-1.219521186",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:32",
+          "11:02",
+          "13:17",
+          "14:47",
+          "16:17",
+          "19:32",
+          "21:32"
+        ]
+      }
+    },
+    "Centro De Salud": {
+      "ubicacion": "37.974861715,-1.219063393",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:33",
+          "11:03",
+          "13:18",
+          "14:48",
+          "16:18",
+          "19:33",
+          "21:33"
+        ]
+      }
+    },
+    "Carides": {
+      "ubicacion": "37.971001125,-1.218223437",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:35",
+          "11:05",
+          "13:20",
+          "14:50",
+          "16:20",
+          "19:35",
+          "21:35"
+        ]
+      }
+    },
+    "Alejo": {
+      "ubicacion": "37.969786455,-1.216568162",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:37",
+          "11:07",
+          "13:22",
+          "14:52",
+          "16:22",
+          "19:37",
+          "21:37"
+        ]
+      }
+    },
+    "Manila": {
+      "ubicacion": "37.970173774,-1.213006656",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:39",
+          "11:09",
+          "13:24",
+          "14:54",
+          "16:24",
+          "19:39",
+          "21:39"
+        ]
+      }
+    },
+    "Iglesia San Pedro": {
+      "ubicacion": "37.972555560,-1.209096219",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:41",
+          "11:11",
+          "13:26",
+          "14:56",
+          "16:26",
+          "19:41",
+          "21:41"
+        ]
+      }
+    },
+    "Camino De La Piedra": {
+      "ubicacion": "37.970927214,-1.207444382",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:42",
+          "11:12",
+          "13:27",
+          "14:57",
+          "16:27",
+          "19:42",
+          "21:42"
+        ]
+      }
+    },
+    "Centro De Salud Casco": {
+      "ubicacion": "37.969163650,-1.205836662",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:43",
+          "11:13",
+          "13:28",
+          "14:58",
+          "16:28",
+          "19:43",
+          "21:43"
+        ]
+      }
+    }
+  }
+}

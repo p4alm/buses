@@ -1,0 +1,600 @@
+{
+  "ida": {
+    "Casablanca": {
+      "ubicacion": "nf9HRcuxvwcP97U27",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:30",
+          "16:20"
+        ]
+      }
+    },
+    "Barrio De Los Castellones": {
+      "ubicacion": "bEHF9TapUhHEZPvj9",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:31",
+          "16:21"
+        ]
+      }
+    },
+    "El Chuque": {
+      "ubicacion": "EQUz6PnpvEmm1FyE8",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:32",
+          "16:22"
+        ]
+      }
+    },
+    "Bar Tites": {
+      "ubicacion": "vEvVXuZLKjTtiPAA",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:33",
+          "16:23"
+        ]
+      }
+    },
+    "Parque": {
+      "ubicacion": "EYCtopvV1ycsmsHx7",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:36",
+          "16:26"
+        ]
+      }
+    },
+    "La Ermita": {
+      "ubicacion": "dBVjaCht9XGzMjzp7",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:37",
+          "16:27"
+        ]
+      }
+    },
+    "Escuelas": {
+      "ubicacion": "xLUh2B4qp8XjtB9",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:38",
+          "16:28"
+        ]
+      }
+    },
+    "El Siscar": {
+      "ubicacion": "QWSVowiebLBu5E3r5",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:39",
+          "16:29"
+        ]
+      }
+    },
+    "Henninger": {
+      "ubicacion": "YUpHLEGxmWFpRyXA",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:40",
+          "16:30"
+        ]
+      }
+    },
+    "Tanatorio": {
+      "ubicacion": "KQzXp8GmUciDahyWA",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:41",
+          "16:31"
+        ]
+      }
+    },
+    "Jamones Novelty": {
+      "ubicacion": "Z7MzqaSas5npchew5",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:42",
+          "16:32"
+        ]
+      }
+    },
+    "Gasolinera": {
+      "ubicacion": "3yH269J53pGd8m9U7",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:43",
+          "16:33"
+        ]
+      }
+    },
+    "La Mota": {
+      "ubicacion": "QWBsBoy6Ne4vR8",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:44",
+          "16:34"
+        ]
+      }
+    },
+    "Juan\u00edn": {
+      "ubicacion": "LowDcCNPjxv3XXp6",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:45",
+          "16:35"
+        ]
+      }
+    },
+    "Librer\u00eda": {
+      "ubicacion": "5UFQ4vfBtUjiE6i9A",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:46",
+          "16:36"
+        ]
+      }
+    },
+    "Instituto": {
+      "ubicacion": "JYTVdG4CAKKGVks17",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:47",
+          "16:37"
+        ]
+      }
+    },
+    "Cuartel": {
+      "ubicacion": "A39oVCtzTsUnabQA",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:48",
+          "16:38"
+        ]
+      }
+    },
+    "Barrio de la Inmaculada": {
+      "ubicacion": "74GDPUiv6bHMmqSV9",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:49",
+          "16:39"
+        ]
+      }
+    },
+    "La Mo\u00f1ina": {
+      "ubicacion": "6NKqEufJY8v8NZjr8",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:50",
+          "16:40"
+        ]
+      }
+    },
+    "Cobatillas": {
+      "ubicacion": "z1AqVsdkQQAJocT99",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:51",
+          "16:41"
+        ]
+      }
+    },
+    "Ignacio": {
+      "ubicacion": "TeXaQpQDZfLL5ZpaA",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:52",
+          "16:42"
+        ]
+      }
+    },
+    "La Olivera": {
+      "ubicacion": "VKk1zuPyhLjaNA7n9",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:54",
+          "16:44"
+        ]
+      }
+    },
+    "Lodares": {
+      "ubicacion": "Lodares/@38.032671,-1.087212,96m/data=!3m1!1e3!4m5!3m4!1s0xd63831209543a03:0xe212f419262e1c4!8m2!3d38.0326663!4d-1.0870709?hl=es-ES",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:56",
+          "16:46"
+        ]
+      }
+    },
+    "Agamar": {
+      "ubicacion": "Agamar/@38.0290586,-1.0888902,21z/data=!4m13!1m7!3m6!1s0xd639b614dbe32d3:0xf61cb809ba96d397!2sDiseminado+Acequia+Zaraiche,+3,+30140+Santomera,+Murcia!3b1!8m2!3d38.0636666!4d-1.0353317!3m4!1s0xd63830e4c959d37:0x6276e50b79d08e26!8m2!3d38.0291098!4d-1.0889178?hl=es-ES",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:57",
+          "16:47"
+        ]
+      }
+    },
+    "El Puente": {
+      "ubicacion": "kG12cCk9pHwW25WN6",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "6:59",
+          "16:49"
+        ]
+      }
+    },
+    "Puente Azarbe": {
+      "ubicacion": "56yaDmQj6jnCHypR8",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:00",
+          "16:50"
+        ]
+      }
+    },
+    "Cruce De Casillas": {
+      "ubicacion": "kPCkqK12XzJBS37B7",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:01",
+          "16:51"
+        ]
+      }
+    },
+    "Zarandona": {
+      "ubicacion": "AQwnmv63FaHMxwEA6",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:04",
+          "16:54"
+        ]
+      }
+    },
+    "Palacio de Los Deportes": {
+      "ubicacion": "jcVzC8FCRUW2FubB9",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:06",
+          "16:56"
+        ]
+      }
+    },
+    "Asilo de Ancianos": {
+      "ubicacion": "PNqXESTTA9AUrEP56",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:07",
+          "16:57"
+        ]
+      }
+    },
+    "Hospital Reina Sof\u00eda": {
+      "ubicacion": "jbBQ3NwFJqRqBPsv7",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:12",
+          "17:02"
+        ]
+      }
+    },
+    "Glorieta de Espa\u00f1a": {
+      "ubicacion": "GqVJPHQxfQGtzdjF9",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:15",
+          "17:05"
+        ]
+      }
+    },
+    "Estaci\u00f3n Autobuses Murcia": {
+      "ubicacion": "TGUmsJq34W1pXDd77",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:17",
+          "17:07"
+        ]
+      }
+    }
+  },
+  "vuelta": {
+    "Estaci\u00f3n Autobuses Murcia": {
+      "ubicacion": "TGUmsJq34W1pXDd77",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:30",
+          "17:30"
+        ]
+      }
+    },
+    "Glorieta de Espa\u00f1a": {
+      "ubicacion": "GqVJPHQxfQGtzdjF9",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:32",
+          "17:32"
+        ]
+      }
+    },
+    "Hospital Reina Sof\u00eda": {
+      "ubicacion": "jbBQ3NwFJqRqBPsv7",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:35",
+          "17:35"
+        ]
+      }
+    },
+    "Asilo de Ancianos": {
+      "ubicacion": "PNqXESTTA9AUrEP56",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:40",
+          "17:40"
+        ]
+      }
+    },
+    "Palacio de Los Deportes": {
+      "ubicacion": "jcVzC8FCRUW2FubB9",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:41",
+          "17:41"
+        ]
+      }
+    },
+    "Zarandona": {
+      "ubicacion": "Zarandona/@38.0016923,-1.1107542,114m/data=!3m1!1e3!4m12!1m6!3m5!1s0xd638246a63e66fd:0x85b86d149b417edf!2sZarandona!8m2!3d38.0004315!4d-1.1115386!3m4!1s0xd63824430acd44b:0x96f471ec0afa7ab3!8m2!3d38.0017292!4d-1.1104235?hl=es-ES",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:43",
+          "17:43"
+        ]
+      }
+    },
+    "Cruce De Casillas": {
+      "ubicacion": "Cruce+de+Casillas/@38.007557,-1.1059631,271m/data=!3m1!1e3!4m12!1m6!3m5!1s0xd63825026351479:0x471a29acb6823139!2sCruce+de+Casillas!8m2!3d38.0069538!4d-1.1063716!3m4!1s0xd638251c9f71d8f:0xf773a0f8b40eff3f!8m2!3d38.0080461!4d-1.1053754?hl=es-ES",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:46",
+          "17:46"
+        ]
+      }
+    },
+    "Puente Azarbe": {
+      "ubicacion": "56yaDmQj6jnCHypR8",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:47",
+          "17:47"
+        ]
+      }
+    },
+    "El Puente": {
+      "ubicacion": "kG12cCk9pHwW25WN6",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:48",
+          "17:48"
+        ]
+      }
+    },
+    "Agamar": {
+      "ubicacion": "Agamar/@38.0303123,-1.0884627,19.08z/data=!4m9!1m2!2m1!1sagamar!3m5!1s0xd63830e3ec94b75:0xe84f65ae696af886!8m2!3d38.0300467!4d-1.0883466!16s%2Fg%2F1vxw9lv",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:50",
+          "17:50"
+        ]
+      }
+    },
+    "Lodares": {
+      "ubicacion": "Lodares/@38.032671,-1.087044,96m/data=!3m1!1e3!4m12!1m6!3m5!1s0xd63831209543a03:0xe212f419262e1c4!2sLodares!8m2!3d38.0326663!4d-1.0870709!3m4!1s0xd6383120d381851:0xcaf290cb67966ff7!8m2!3d38.0329689!4d-1.0868351?hl=es-ES",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:51",
+          "17:51"
+        ]
+      }
+    },
+    "La Olivera": {
+      "ubicacion": "VKk1zuPyhLjaNA7n9",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:53",
+          "17:53"
+        ]
+      }
+    },
+    "Ignacio": {
+      "ubicacion": "TeXaQpQDZfLL5ZpaA",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:56",
+          "17:56"
+        ]
+      }
+    },
+    "Cobatillas": {
+      "ubicacion": "Cobatillas/@38.0521289,-1.0759601,161m/data=!3m1!1e3!4m12!1m6!3m5!1s0xd63835ddb7dab5f:0x31e470831acc244b!2sCobatillas!8m2!3d38.0524232!4d-1.0762661!3m4!1s0xd63835c2b69fd43:0xc6098a5176bf8fcb!8m2!3d38.0526868!4d-1.075302?hl=es-ES",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:51",
+          "17:51"
+        ]
+      }
+    },
+    "La Mo\u00f1ina": {
+      "ubicacion": "6NKqEufJY8v8NZjr8",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:58",
+          "17:58"
+        ]
+      }
+    },
+    "Barrio de la Inmaculada": {
+      "ubicacion": "74GDPUiv6bHMmqSV9",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "7:59",
+          "17:59"
+        ]
+      }
+    },
+    "Cuartel": {
+      "ubicacion": "A39oVCtzTsUnabQA",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:00",
+          "18:00"
+        ]
+      }
+    },
+    "Instituto": {
+      "ubicacion": "JYTVdG4CAKKGVks17",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:01",
+          "18:01"
+        ]
+      }
+    },
+    "Librer\u00eda": {
+      "ubicacion": "5UFQ4vfBtUjiE6i9A",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:02",
+          "18:02"
+        ]
+      }
+    },
+    "Juan\u00edn": {
+      "ubicacion": "LowDcCNPjxv3XXp6",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:06",
+          "18:06"
+        ]
+      }
+    },
+    "La Mota": {
+      "ubicacion": "QWBsBoy6Ne4vR8",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:07",
+          "18:07"
+        ]
+      }
+    },
+    "Gasolinera": {
+      "ubicacion": "3yH269J53pGd8m9U7",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:08",
+          "18:08"
+        ]
+      }
+    },
+    "Jamones Novelty": {
+      "ubicacion": "Z7MzqaSas5npchew5",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:09",
+          "18:09"
+        ]
+      }
+    },
+    "Tanatorio": {
+      "ubicacion": "KQzXp8GmUciDahyWA",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:10",
+          "18:10"
+        ]
+      }
+    },
+    "Henninger": {
+      "ubicacion": "YUpHLEGxmWFpRyXA",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8.11",
+          "18.11"
+        ]
+      }
+    },
+    "El Siscar": {
+      "ubicacion": "QWSVowiebLBu5E3r5",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:12",
+          "18:12"
+        ]
+      }
+    },
+    "Escuelas": {
+      "ubicacion": "xLUh2B4qp8XjtB9",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:13",
+          "18:13"
+        ]
+      }
+    },
+    "La Ermita": {
+      "ubicacion": "dBVjaCht9XGzMjzp7",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:14",
+          "18:14"
+        ]
+      }
+    },
+    "Parque": {
+      "ubicacion": "EYCtopvV1ycsmsHx7",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:15",
+          "18:15"
+        ]
+      }
+    },
+    "Bar Tites": {
+      "ubicacion": "vEvVXuZLKjTtiPAA",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:18",
+          "18:18"
+        ]
+      }
+    },
+    "El Chuque": {
+      "ubicacion": "EQUz6PnpvEmm1FyE8",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:19",
+          "18:19"
+        ]
+      }
+    },
+    "Barrio De Los Castellones": {
+      "ubicacion": "bEHF9TapUhHEZPvj9",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:20",
+          "18:20"
+        ]
+      }
+    },
+    "Casablanca": {
+      "ubicacion": "nf9HRcuxvwcP97U27",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "8:21",
+          "18:21"
+        ]
+      }
+    }
+  }
+}

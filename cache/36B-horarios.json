@@ -1,0 +1,884 @@
+{
+  "ida": {
+    "Balneario de Archena": {
+      "ubicacion": "38.126578482446995, -1.3020870085429892",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:00",
+          "15:00"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:00",
+          "17:00"
+        ],
+        "Domingos y Festivos": [
+          "9:00",
+          "15:00"
+        ]
+      }
+    },
+    "R\u00edo Sol II": {
+      "ubicacion": "38.12222260317736, -1.2980261438202",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:01",
+          "15:01"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:01",
+          "17:01"
+        ],
+        "Domingos y Festivos": [
+          "9:01",
+          "15:01"
+        ]
+      }
+    },
+    "Archena II": {
+      "ubicacion": "38.117285899928405, -1.2988203804876328",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:02",
+          "15:02"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:02",
+          "17:02"
+        ],
+        "Domingos y Festivos": [
+          "9:02",
+          "15:02"
+        ]
+      }
+    },
+    "Puente II": {
+      "ubicacion": "38.11509891525868, -1.2959295455539255",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:03",
+          "15:03"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:03",
+          "17:03"
+        ],
+        "Domingos y Festivos": [
+          "9:03",
+          "15:03"
+        ]
+      }
+    },
+    "Cruz Roja II / Espre\u00e1fico II": {
+      "ubicacion": "38.11568061441392, -1.289609349778605",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:05",
+          "15:05"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:05",
+          "17:05"
+        ],
+        "Domingos y Festivos": [
+          "9:05",
+          "15:05"
+        ]
+      }
+    },
+    "Desvio Puente II": {
+      "ubicacion": "38.11077876120301, -1.2859852394331643",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:06",
+          "15:06"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:06",
+          "17:06"
+        ],
+        "Domingos y Festivos": [
+          "9:06",
+          "15:06"
+        ]
+      }
+    },
+    "La Algaida II": {
+      "ubicacion": "38.10838394631622, -1.2835377247104045",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:07",
+          "15:07"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:07",
+          "17:07"
+        ],
+        "Domingos y Festivos": [
+          "9:07",
+          "15:07"
+        ]
+      }
+    },
+    "Torre del Junco II": {
+      "ubicacion": "38.10763051561783, -1.2763840903568036",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:08",
+          "15:08"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:08",
+          "17:08"
+        ],
+        "Domingos y Festivos": [
+          "9:08",
+          "15:08"
+        ]
+      }
+    },
+    "Los Palacios II": {
+      "ubicacion": "38.10125745379605, -1.264257767702528",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:09",
+          "15:09"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:09",
+          "17:09"
+        ],
+        "Domingos y Festivos": [
+          "9:09",
+          "15:09"
+        ]
+      }
+    },
+    "Cementerio de Lorqu\u00ed II": {
+      "ubicacion": "38.08636295581702, -1.24960722328022",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:12",
+          "15:12"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:12",
+          "17:12"
+        ],
+        "Domingos y Festivos": [
+          "9:12",
+          "15:12"
+        ]
+      }
+    },
+    "Los Rosales IV": {
+      "ubicacion": "38.079537661021654, -1.2465575186058153",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:14",
+          "15:14"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:14",
+          "17:14"
+        ],
+        "Domingos y Festivos": [
+          "9:14",
+          "15:14"
+        ]
+      }
+    },
+    "Llano de Molina II": {
+      "ubicacion": "38.076697985918535, -1.2398819105979049",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:16",
+          "15:16"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:16",
+          "17:16"
+        ],
+        "Domingos y Festivos": [
+          "9:16",
+          "15:16"
+        ]
+      }
+    },
+    "Eroski II": {
+      "ubicacion": "38.06315860703473, -1.2196693572405208",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:24",
+          "15:24"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:24",
+          "17:24"
+        ],
+        "Domingos y Festivos": [
+          "9:24",
+          "15:24"
+        ]
+      }
+    },
+    "Casas Baratas II": {
+      "ubicacion": "38.05936101979958, -1.217251976862889",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:25",
+          "15:25"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:25",
+          "17:25"
+        ],
+        "Domingos y Festivos": [
+          "9:25",
+          "15:25"
+        ]
+      }
+    },
+    "Estaci\u00f3n Autobuses Molina (And\u00e9n 1)": {
+      "ubicacion": "38.0580645978022, -1.213513592128160",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:27",
+          "15:27"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:27",
+          "17:27"
+        ],
+        "Domingos y Festivos": [
+          "9:27",
+          "15:27"
+        ]
+      }
+    },
+    "Cabezo Cortado II": {
+      "ubicacion": "38.03103249686548, -1.1762888670034242",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:32",
+          "15:32"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:32",
+          "17:32"
+        ],
+        "Domingos y Festivos": [
+          "9:32",
+          "15:32"
+        ]
+      }
+    },
+    "Extranjer\u00eda II": {
+      "ubicacion": "38.02901429277395, -1.173337875895882",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:33",
+          "15:33"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:33",
+          "17:33"
+        ],
+        "Domingos y Festivos": [
+          "9:33",
+          "15:33"
+        ]
+      }
+    },
+    "Complejo II": {
+      "ubicacion": "38%C2%B001'30.2%22N+1%C2%B010'05.4%22W/@38.0250556,-1.1681667,449m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d38.0250556!4d-1.1681667",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:35",
+          "15:35"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:35",
+          "17:35"
+        ],
+        "Domingos y Festivos": [
+          "9:35",
+          "15:35"
+        ]
+      }
+    },
+    "Aulario Norte II": {
+      "ubicacion": "38.02359390141674, -1.171577671939516",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:37",
+          "15:37"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:37",
+          "17:37"
+        ],
+        "Domingos y Festivos": [
+          "9:37",
+          "15:37"
+        ]
+      }
+    },
+    "Vial Norte II": {
+      "ubicacion": "38.02156642317762, -1.1711372537170563",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:39",
+          "15:39"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:39",
+          "17:39"
+        ],
+        "Domingos y Festivos": [
+          "9:39",
+          "15:39"
+        ]
+      }
+    },
+    "Cruce del Puntal II": {
+      "ubicacion": "38.01258819565829, -1.1520774265394724",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:42",
+          "15:42"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:42",
+          "17:42"
+        ],
+        "Domingos y Festivos": [
+          "9:42",
+          "15:42"
+        ]
+      }
+    },
+    "Gasolinera La Hita II": {
+      "ubicacion": "38.00525206680886, -1.1437452711103275",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:43",
+          "15:43"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:43",
+          "17:43"
+        ],
+        "Domingos y Festivos": [
+          "9:43",
+          "15:43"
+        ]
+      }
+    },
+    "Biblioteca-Pabell\u00f3n II": {
+      "ubicacion": "37.99779483428675, -1.1362866492649126",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:46",
+          "15:46"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:46",
+          "17:46"
+        ],
+        "Domingos y Festivos": [
+          "9:46",
+          "15:46"
+        ]
+      }
+    },
+    "Barn\u00e9s II": {
+      "ubicacion": "37.99494150684444, -1.1333224915677005",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:47",
+          "15:47"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:47",
+          "17:47"
+        ],
+        "Domingos y Festivos": [
+          "9:47",
+          "15:47"
+        ]
+      }
+    },
+    "Primo de Rivera II": {
+      "ubicacion": "37.99156611392372, -1.1344278619675099",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:49",
+          "15:49"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:49",
+          "17:49"
+        ],
+        "Domingos y Festivos": [
+          "9:49",
+          "15:49"
+        ]
+      }
+    },
+    "Estaci\u00f3n Autobuses Murcia (And\u00e9n 8)": {
+      "ubicacion": "37.98573995775425, -1.1391693756342909",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "9:53",
+          "15:53"
+        ],
+        "S\u00e1bados (laborables)": [
+          "10:53",
+          "17:53"
+        ],
+        "Domingos y Festivos": [
+          "9:53",
+          "15:53"
+        ]
+      }
+    }
+  },
+  "vuelta": {
+    "Estaci\u00f3n Autobuses Murcia (And\u00e9n 8)": {
+      "ubicacion": "37.98573995775425, -1.1391693756342909",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "13:30",
+          "19:30"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:00"
+        ],
+        "Domingos y Festivos": [
+          "10:00",
+          "17:00"
+        ]
+      }
+    },
+    "Primo de Rivera I": {
+      "ubicacion": "37.99145619350834, -1.1342749760640034",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "13:35",
+          "19:32"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:05"
+        ],
+        "Domingos y Festivos": [
+          "10:05",
+          "17:05"
+        ]
+      }
+    },
+    "Plaza Circular, 14 (Mercadona)": {
+      "ubicacion": "37.992703637365295, -1.129669812495367",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "13:37",
+          "19:34"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:07"
+        ],
+        "Domingos y Festivos": [
+          "10:07",
+          "17:07"
+        ]
+      }
+    },
+    "Barn\u00e9s I": {
+      "ubicacion": "37.99511060707268, -1.133153512411193",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "13:38",
+          "19:35"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:08"
+        ],
+        "Domingos y Festivos": [
+          "10:08",
+          "17:08"
+        ]
+      }
+    },
+    "Biblioteca-Pabell\u00f3n I": {
+      "ubicacion": "37.99883162137033, -1.1367279026222297",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "13:39",
+          "19:36"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:09"
+        ],
+        "Domingos y Festivos": [
+          "10:09",
+          "17:09"
+        ]
+      }
+    },
+    "Gasolinera La Hita I": {
+      "ubicacion": "38.00621927310203, -1.1440927294413379",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "13:40",
+          "19:37"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:10"
+        ],
+        "Domingos y Festivos": [
+          "10:10",
+          "17:10"
+        ]
+      }
+    },
+    "Cruce del Puntal": {
+      "ubicacion": "38.01302178763135, -1.1523514649191229",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "13:43",
+          "19:40"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:13"
+        ],
+        "Domingos y Festivos": [
+          "10:13",
+          "17:13"
+        ]
+      }
+    },
+    "Vial Norte I": {
+      "ubicacion": "38.02162981278381, -1.171105067211055",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "13:46",
+          "19:43"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:16"
+        ],
+        "Domingos y Festivos": [
+          "10:16",
+          "17:16"
+        ]
+      }
+    },
+    "Aulario Norte I": {
+      "ubicacion": "38.02339744719868, -1.1717090505658463",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "13:47",
+          "19:44"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:17"
+        ],
+        "Domingos y Festivos": [
+          "10:17",
+          "17:17"
+        ]
+      }
+    },
+    "Complejo II": {
+      "ubicacion": "38%C2%B001'29.7%22N+1%C2%B010'05.1%22W/@38.0249167,-1.1680833,449m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d38.0249167!4d-1.1680833",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "13:48",
+          "19:45"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:18"
+        ],
+        "Domingos y Festivos": [
+          "10:18",
+          "17:18"
+        ]
+      }
+    },
+    "Extranjer\u00eda I": {
+      "ubicacion": "38.0288711091708, -1.17222529955559",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "13:49",
+          "19:46"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:19"
+        ],
+        "Domingos y Festivos": [
+          "10:19",
+          "17:19"
+        ]
+      }
+    },
+    "Cabezo Cortado I": {
+      "ubicacion": "38.031831118436926, -1.1763291032381848",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "13:50",
+          "19:47"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:20"
+        ],
+        "Domingos y Festivos": [
+          "10:20",
+          "17:20"
+        ]
+      }
+    },
+    "Estaci\u00f3n Autobuses Molina (And\u00e9n 2)": {
+      "ubicacion": "38.05812584388954, -1.2135860117666633",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "13:55",
+          "19:52"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:25"
+        ],
+        "Domingos y Festivos": [
+          "10:25",
+          "17:25"
+        ]
+      }
+    },
+    "Casas Baratas I": {
+      "ubicacion": "38.059215254214074, -1.2170374095748762",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "13:57",
+          "19:54"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:27"
+        ],
+        "Domingos y Festivos": [
+          "10:27",
+          "17:27"
+        ]
+      }
+    },
+    "Eroski I": {
+      "ubicacion": "38.06358733595348, -1.2195271947991624",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "13:58",
+          "19:55"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:28"
+        ],
+        "Domingos y Festivos": [
+          "10:28",
+          "17:28"
+        ]
+      }
+    },
+    "Llano de Molina I": {
+      "ubicacion": "38.07684367217232, -1.2397397535297319",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:06",
+          "20:03"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:36"
+        ],
+        "Domingos y Festivos": [
+          "10:36",
+          "17:36"
+        ]
+      }
+    },
+    "Los Rosales III": {
+      "ubicacion": "38.079134430823366, -1.2462436785396747",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:08",
+          "20:05"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:38"
+        ],
+        "Domingos y Festivos": [
+          "10:38",
+          "17:38"
+        ]
+      }
+    },
+    "Cementerio de Lorqu\u00ed I": {
+      "ubicacion": "38.086475657037866, -1.2494986982588894",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:10",
+          "20:07"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:40"
+        ],
+        "Domingos y Festivos": [
+          "10:40",
+          "17:40"
+        ]
+      }
+    },
+    "Los Palacios I": {
+      "ubicacion": "38.10152596103029, -1.2644088094602204",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:13",
+          "20:10"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:43"
+        ],
+        "Domingos y Festivos": [
+          "10:43",
+          "17:43"
+        ]
+      }
+    },
+    "Torre del Junco I": {
+      "ubicacion": "38.10772756069588, -1.276201698151433",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:14",
+          "20:11"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:44"
+        ],
+        "Domingos y Festivos": [
+          "10:44",
+          "17:44"
+        ]
+      }
+    },
+    "La Algaida I": {
+      "ubicacion": "38.10846202144347, -1.2835108563241675",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:15",
+          "20:12"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:45"
+        ],
+        "Domingos y Festivos": [
+          "10:45",
+          "17:45"
+        ]
+      }
+    },
+    "Desv\u00edo Puente I": {
+      "ubicacion": "38.11076613503546, -1.285840428682159",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:16",
+          "20:13"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:46"
+        ],
+        "Domingos y Festivos": [
+          "10:46",
+          "17:46"
+        ]
+      }
+    },
+    "Cruz Roja I / Espre\u00e1fico I": {
+      "ubicacion": "38.11566459170826, -1.2908218741154909",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:18",
+          "20:15"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:48"
+        ],
+        "Domingos y Festivos": [
+          "10:48",
+          "17:48"
+        ]
+      }
+    },
+    "Puente I": {
+      "ubicacion": "38.11519814618228, -1.2961173356040168",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:20",
+          "20:17"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:50"
+        ],
+        "Domingos y Festivos": [
+          "10:50",
+          "17:50"
+        ]
+      }
+    },
+    "Archena I": {
+      "ubicacion": "38.117707943660946, -1.2995231192019967",
+      "General": {}
+    },
+    "Plaza 1\u00ba de Mayo": {
+      "ubicacion": "38.11799158829335, -1.2987467466220954",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:21",
+          "20:18"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:51"
+        ],
+        "Domingos y Festivos": [
+          "10:51",
+          "17:51"
+        ]
+      }
+    },
+    "R\u00edo Sol I": {
+      "ubicacion": "38.12218440036652, -1.2978211229792782",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:22",
+          "20:19"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:52"
+        ],
+        "Domingos y Festivos": [
+          "10:52",
+          "17:52"
+        ]
+      }
+    },
+    "Balneario de Archena": {
+      "ubicacion": "38.126578482446995, -1.3020870085429892",
+      "General": {
+        "Lunes a Viernes (laborables)": [
+          "14:24",
+          "20:21"
+        ],
+        "S\u00e1bados (laborables)": [
+          "15:54"
+        ],
+        "Domingos y Festivos": [
+          "10:54",
+          "17:54"
+        ]
+      }
+    }
+  }
+}
