@@ -23,6 +23,10 @@ const EN_URL = /@(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?)/;
 const CORTO_CON_COLA = /^([A-Za-z0-9_-]{8,})\?g_/;
 const CORTO = /^[A-Za-z0-9_-]{10,}$/;
 
+const ROMANOS = new Set(['i','ii','iii','iv']);
+const IGNORADAS = new Set(['de','del','la','el','los','las','lo','y','con','en','a','al']);
+const ABREVIATURAS = {ctra:'carretera', pza:'plaza', avda:'avenida'};
+
 /* Devuelve {mapa} con un enlace listo para usar, o {mapa:null, raw} si no se reconoce. */
 export function normalizaUbicacion(valor){
   const original = String(valor == null ? '' : valor).trim();
@@ -67,11 +71,58 @@ function distanciaMetros(a, b){
 }
 
 /*
- * Recorre las paradas de todas las líneas, las agrupa por nombre normalizado
- * y distancia (<40 m) y devuelve los grupos con id estable. Además escribe
- * el campo `parada` en cada parada del maestro.
+ * Separa el sufijo romano (I, II...) y limpia tokens para comparar alias:
+ * "Ayuntamiento Molina II" → {sufijo:"ii", tokens:["ayuntamiento","molina"]}.
  */
-export function agrupaParadas(maestro){
+export function parseNombreParada(nombre){
+  const tokens = normalizaNombre(nombre).split(' ').filter(Boolean);
+  let sufijo = '';
+  if(tokens.length && ROMANOS.has(tokens[tokens.length-1])){
+    sufijo = tokens.pop();
+  }
+  const limpios = tokens
+    .map(t => ABREVIATURAS[t] || t)
+    .filter(t => (t.length > 1 && !IGNORADAS.has(t)) || /^\d+$/.test(t));
+  return {sufijo, tokens:limpios};
+}
+function numeros(tokens){
+  return tokens.filter(t => /^\d+$/.test(t)).sort().join(',');
+}
+function subconjunto(a, b){
+  const sa = new Set(a), sb = new Set(b);
+  return [...sa].every(x => sb.has(x)) || [...sb].every(x => sa.has(x));
+}
+function aliasCompatible(a, b){
+  if(a.sufijo !== b.sufijo) return false;
+  if(numeros(a.tokens) !== numeros(b.tokens)) return false;
+  return subconjunto(a.tokens, b.tokens);
+}
+function esExcluido(a, b, excluidos){
+  return excluidos.some(([x,y]) =>
+    (x === a.clave && y === b.clave) || (x === b.clave && y === a.clave)
+  );
+}
+function esUnionExtra(a, b, extra){
+  return extra.some(([x,y]) =>
+    (x === a.clave && y === b.clave) || (x === b.clave && y === a.clave)
+  );
+}
+
+/*
+ * Agrupa las paradas de todas las líneas:
+ *   1. mismo nombre normalizado y <40 m (incluye el sufijo I/II, así que nunca
+ *      mezcla sentidos distintos);
+ *   2. alias: mismo sufijo, números iguales y un nombre contenido en el otro
+ *      ("Ayuntamiento" ⊂ "Ayuntamiento Molina").
+ * Devuelve los grupos con id estable y escribe `parada` en el maestro.
+ */
+export function agrupaParadas(maestro, opciones = {}){
+  const excluidos = (opciones.aliasExcluidos || []).map(([a,b]) =>
+    [normalizaNombre(a), normalizaNombre(b)]
+  );
+  const extra = (opciones.unionesExtra || []).map(([a,b]) =>
+    [normalizaNombre(a), normalizaNombre(b)]
+  );
   const ocurrencias = [];
 
   for(const [linea, L] of Object.entries(maestro.lineas)){
@@ -82,6 +133,7 @@ export function agrupaParadas(maestro){
         ocurrencias.push({
           linea, dir, nombre, info,
           clave: normalizaNombre(nombre),
+          ...parseNombreParada(nombre),
           lat: m ? Number(m[1]) : null,
           lng: m ? Number(m[2]) : null
         });
@@ -89,29 +141,63 @@ export function agrupaParadas(maestro){
     }
   }
 
+  const clusters = [];
   const porClave = new Map();
   for(const o of ocurrencias){
-    const clusters = porClave.get(o.clave) || [];
+    const lista = porClave.get(o.clave) || [];
     let cluster = null;
 
     if(o.lat != null){
-      cluster = clusters.find(c => c.lat != null && distanciaMetros(c, o) <= DISTANCIA_GRUPO) || null;
+      cluster = lista.find(c => c.lat != null && distanciaMetros(c, o) <= DISTANCIA_GRUPO) || null;
     } else {
-      cluster = clusters[0] || null;
+      cluster = lista[0] || null;
     }
 
     if(cluster){
       cluster.oc.push(o);
       if(cluster.lat == null && o.lat != null){ cluster.lat = o.lat; cluster.lng = o.lng; }
     } else {
-      clusters.push({clave:o.clave, lat:o.lat, lng:o.lng, oc:[o]});
+      lista.push({clave:o.clave, sufijo:o.sufijo, tokens:o.tokens, lat:o.lat, lng:o.lng, oc:[o]});
     }
-    porClave.set(o.clave, clusters);
+    porClave.set(o.clave, lista);
+  }
+  for(const lista of porClave.values()) clusters.push(...lista);
+
+  /* unión de alias (I con I, II con II) */
+  const padre = clusters.map((_, i) => i);
+  const raiz = x => {
+    while(padre[x] !== x){ padre[x] = padre[padre[x]]; x = padre[x]; }
+    return x;
+  };
+  const uniones = [];
+  for(let i=0;i<clusters.length;i++){
+    for(let j=i+1;j<clusters.length;j++){
+      const a = clusters[i], b = clusters[j];
+      if(a.lat == null || b.lat == null) continue;
+      if(distanciaMetros(a, b) >= DISTANCIA_GRUPO) continue;
+      if(esExcluido(a, b, excluidos)) continue;
+      const forzada = esUnionExtra(a, b, extra);
+      if(!forzada && !aliasCompatible(a, b)) continue;
+      const ra = raiz(i), rb = raiz(j);
+      if(ra === rb) continue;
+      padre[rb] = ra;
+      uniones.push([a.oc[0].nombre.trim(), b.oc[0].nombre.trim()]);
+    }
   }
 
-  const grupos = [];
-  for(const clusters of porClave.values()) grupos.push(...clusters);
+  const porRaiz = new Map();
+  clusters.forEach((c, i)=>{
+    const r = raiz(i);
+    let g = porRaiz.get(r);
+    if(!g){
+      g = {lat:c.lat, lng:c.lng, oc:[]};
+      porRaiz.set(r, g);
+    }
+    g.oc.push(...c.oc);
+    if(g.lat == null && c.lat != null){ g.lat = c.lat; g.lng = c.lng; }
+  });
 
+  const grupos = [...porRaiz.values()];
   for(const g of grupos){
     const nombres = new Map();
     for(const o of g.oc){
@@ -120,6 +206,7 @@ export function agrupaParadas(maestro){
     }
     g.nombre = [...nombres.entries()]
       .sort((a,b)=> b[1]-a[1] || a[0].localeCompare(b[0],'es'))[0][0];
+    g.clave = normalizaNombre(g.nombre);
     const conMapa = g.oc.find(o => o.info.ubicacion && o.info.ubicacion.mapa);
     g.mapa = conMapa ? conMapa.info.ubicacion.mapa : null;
   }
@@ -139,6 +226,7 @@ export function agrupaParadas(maestro){
     for(const o of g.oc) o.info.parada = g.id;
   }
 
+  grupos.uniones = uniones;
   return grupos;
 }
 
@@ -247,7 +335,10 @@ function main(){
     maestro.lineas[id] = linea;
   }
 
-  const grupos = agrupaParadas(maestro);
+  const grupos = agrupaParadas(maestro, {
+    aliasExcluidos: config.aliasExcluidos,
+    unionesExtra: config.unionesExtra
+  });
 
   /* líneas y páginas de línea (ya con el id de parada en cada parada) */
   for(const [id, linea] of Object.entries(maestro.lineas)){
@@ -286,6 +377,8 @@ function main(){
   console.log('Líneas generadas: '+Object.keys(maestro.lineas).length+' ('+config.orden.length+' configuradas)');
   console.log('Paradas-línea:    '+paradasTotal+' · con enlace de mapa: '+conMapa);
   console.log('Paradas unificadas: '+grupos.length+' · con ambos sentidos: '+conAmbosSentidos+' · sin horario General: '+sinHorario);
+  console.log('Alias unidos: '+grupos.uniones.length);
+  for(const [a,b] of grupos.uniones) console.log('  · '+a+' + '+b);
   if(partidos.length) console.log('Nombres partidos: '+partidos.join(', '));
   if(quedan36) console.log('Aviso: "36" sigue en datos/lineas.config.json y se ha ignorado.');
   if(incognitas.length){

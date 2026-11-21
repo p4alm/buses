@@ -15,6 +15,13 @@
     "37",
     "38"
   ],
+  "aliasExcluidos": [
+    ["gasolinera", "gasolinera el chorrico"]
+  ],
+  "unionesExtra": [
+    ["carrefour", "carrefour ii"],
+    ["cruce del puntal", "cruce del puntal i"]
+  ],
   "lineas": {
     "31A": {
       "name": "Ceuti Murcia por Alguazas",

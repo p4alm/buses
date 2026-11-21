@@ -148,7 +148,9 @@
   function coincide(g, q){
     if(B.norm(g.nombre).includes(q)) return true;
     return g.servicios.some(s =>
-      B.norm(s.linea).includes(q) || B.norm(s.lineaNombre).includes(q)
+      B.norm(s.parada).includes(q) ||
+      B.norm(s.linea).includes(q) ||
+      B.norm(s.lineaNombre).includes(q)
     );
   }
 

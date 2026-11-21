@@ -81,7 +81,7 @@
     const color = (p.servicios[0] && p.servicios[0].color) || '#888';
     const favorita = B.isFavParada(p.id);
 
-    document.title = 'Parada '+p.nombre+' · Buses Región de Murcia';
+    document.title = 'Parada '+p.nombre+' · Buses Molina';
 
     let html = '<div class="linehead">'
       + '<button class="backbtn" data-home aria-label="Volver al inicio">←</button>'
