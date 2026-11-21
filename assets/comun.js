@@ -69,30 +69,67 @@
     return DAYTYPES.filter(dt=>set.has(dt));
   }
 
-  /* favoritos en localStorage: "linea|direccion|parada" */
-  function favKey(s){ return s.line+'|'+s.dir+'|'+s.stopName; }
+  /* favoritos antiguos (por servicio), solo para migrar a paradas */
   function getFavs(){
     try{ return JSON.parse(localStorage.getItem('movibus_favs')||'[]'); }catch(e){ return []; }
   }
-  function setFavs(f){
-    try{ localStorage.setItem('movibus_favs', JSON.stringify(f)); }catch(e){}
+
+  /* favoritos de parada unificada */
+  const CLAVE_FAVS_PARADAS = 'movibus_paradas';
+  function getFavsParadas(){
+    try{ return JSON.parse(localStorage.getItem(CLAVE_FAVS_PARADAS)||'[]'); }catch(e){ return []; }
   }
-  function isFav(s){ return getFavs().includes(favKey(s)); }
-  function toggleFav(s){
-    let f = getFavs();
-    const k = favKey(s);
-    if(f.includes(k)) f = f.filter(x=>x!==k);
-    else f.push(k);
-    setFavs(f);
+  function setFavsParadas(ids){
+    try{ localStorage.setItem(CLAVE_FAVS_PARADAS, JSON.stringify(ids)); }catch(e){}
+  }
+  function isFavParada(id){ return getFavsParadas().includes(id); }
+  function toggleFavParada(id){
+    let f = getFavsParadas();
+    f = f.includes(id) ? f.filter(x=>x!==id) : f.concat(id);
+    setFavsParadas(f);
+  }
+  /* traduce "linea|dir|parada" del formato antiguo al id de parada unificada */
+  function migrarFavoritos(servicioAParada){
+    let yaMigrado = null;
+    try{ yaMigrado = localStorage.getItem(CLAVE_FAVS_PARADAS); }catch(e){ return; }
+    if(yaMigrado !== null) return;
+    const ids = [];
+    for(const clave of getFavs()){
+      const id = servicioAParada[clave];
+      if(id && !ids.includes(id)) ids.push(id);
+    }
+    setFavsParadas(ids);
+  }
+
+  /* todas las salidas (de todos los servicios) de un tipo de día, ordenadas */
+  function proximasSalidas(servicios, dayType){
+    const salidas = [];
+    for(const s of servicios || []){
+      const tiempos = ((s.General||{})[dayType]) || [];
+      for(const t of tiempos){
+        salidas.push({
+          linea: s.linea, dir: s.dir, parada: s.parada, destino: s.destino,
+          color: s.color, t, min: timeToMin(t)
+        });
+      }
+    }
+    salidas.sort((a,b)=> a.min-b.min || String(a.linea).localeCompare(String(b.linea),'es'));
+    return salidas;
+  }
+  /* primera salida futura (o la primera del día si no es hoy) */
+  function proximoBus(servicios, dayType){
+    const salidas = proximasSalidas(servicios, dayType);
+    if(dayType !== todayDayType()) return salidas[0] || null;
+    const nm = nowMinutes();
+    return salidas.find(s=> s.min >= nm) || null;
   }
 
   /* enlace a Google Maps a partir de la ubicación normalizada del generador */
   function mapLink(ubicacion){
     return (ubicacion && ubicacion.mapa) || null;
   }
-  /* enlace a una parada concreta de la página de su línea */
-  function stopUrl(stop){
-    return 'lineas/'+stop.line+'/?dir='+stop.dir+'#parada-'+slugify(stop.stopName);
+  function paradaUrl(id){
+    return 'paradas/'+id+'/';
   }
 
   async function loadJSON(url){
@@ -112,7 +149,8 @@
     DAYTYPES, DAYLABEL, DIRLABEL,
     todayDayType, nowMinutes, timeToMin, fmtDelta, norm, escapeHtml, slugify,
     computeTimes, nextLabel, availableDayTypes,
-    favKey, getFavs, setFavs, isFav, toggleFav,
-    mapLink, stopUrl, loadJSON, tickClock
+    getFavsParadas, setFavsParadas, isFavParada, toggleFavParada, migrarFavoritos,
+    proximasSalidas, proximoBus,
+    mapLink, paradaUrl, loadJSON, tickClock
   };
 })();

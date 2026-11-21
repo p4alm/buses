@@ -86,17 +86,18 @@
       if(!(info.General||{})[diaFinal]) return;
 
       const {times} = B.computeTimes(info.General||{}, diaFinal);
-      const on = B.isFav({line:ID, dir:state.dir, stopName:sname});
+      const on = B.isFavParada(info.parada);
+      const nombreHtml = info.parada
+        ? '<a class="sname" href="../../paradas/'+encodeURIComponent(info.parada)+'/">'+B.escapeHtml(sname)+'</a>'
+        : '<span class="sname">'+B.escapeHtml(sname)+'</span>';
 
       html += '<div class="stopitem" id="parada-'+B.slugify(sname)+'" data-stop="'+B.escapeHtml(sname)+'">'
         + '<div class="head">'
         +   '<span class="idx">'+(i+1)+'</span>'
-        +   '<span class="sname">'+B.escapeHtml(sname)+'</span>'
+        +   nombreHtml
         +   enlaceMapa(info.ubicacion)
         +   '<button class="star '+(on?'on':'')+'"'
-        +     ' data-line="'+B.escapeHtml(ID)+'"'
-        +     ' data-dir="'+B.escapeHtml(state.dir)+'"'
-        +     ' data-stop="'+B.escapeHtml(sname)+'"'
+        +     ' data-parada="'+B.escapeHtml(info.parada||'')+'"'
         +     ' aria-label="'+(on?'Quitar de favoritos':'Añadir a favoritos')+'"'
         +     ' aria-pressed="'+(on?'true':'false')+'">★</button>'
         + '</div>'
@@ -166,8 +167,8 @@
     }
 
     const star = e.target.closest('.star');
-    if(star){
-      B.toggleFav({line: star.dataset.line, dir: star.dataset.dir, stopName: star.dataset.stop});
+    if(star && star.dataset.parada){
+      B.toggleFavParada(star.dataset.parada);
       const on = !star.classList.contains('on');
       star.classList.toggle('on', on);
       star.setAttribute('aria-pressed', on ? 'true' : 'false');
