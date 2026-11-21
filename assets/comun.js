@@ -92,7 +92,7 @@
   }
   /* enlace a una parada concreta de la página de su línea */
   function stopUrl(stop){
-    return stop.line+'/?dir='+stop.dir+'#parada-'+slugify(stop.stopName);
+    return 'lineas/'+stop.line+'/?dir='+stop.dir+'#parada-'+slugify(stop.stopName);
   }
 
   async function loadJSON(url){

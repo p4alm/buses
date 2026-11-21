@@ -14,6 +14,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 const AQUI = path.dirname(fileURLToPath(import.meta.url));
 const RAIZ = path.resolve(AQUI, '..');
 const MARCA = '<!-- generado por scripts/generar.mjs -->';
+const CARPETA_LINEAS = 'lineas';
 
 const COORD = /^(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)$/;
 const EN_URL = /@(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?)/;
@@ -46,21 +47,31 @@ function coordenadas(lat, lng){
   return {mapa:'https://www.google.com/maps/search/?api=1&query='+lat+','+lng};
 }
 
+function limpiaCarpeta(base, soloLineas){
+  if(!fs.existsSync(base)) return;
+  const patron = /^\d{2}[A-D]?$/;
+  for(const f of fs.readdirSync(base)){
+    const ruta = path.join(base,f);
+    if(!fs.statSync(ruta).isDirectory()) continue;
+    if(soloLineas && !patron.test(f)) continue;
+    const index = path.join(ruta,'index.html');
+    if(fs.existsSync(index) && fs.readFileSync(index,'utf8').includes(MARCA)){
+      fs.rmSync(ruta, {recursive:true, force:true});
+    }
+  }
+}
+
 function limpiaSalida(){
   const dataDir = path.join(RAIZ,'data');
   fs.mkdirSync(dataDir, {recursive:true});
   for(const f of fs.readdirSync(dataDir)){
     if(f.endsWith('.json')) fs.rmSync(path.join(dataDir,f));
   }
-  const generada = /^\d{2}[A-D]?$/;
-  for(const f of fs.readdirSync(RAIZ)){
-    const ruta = path.join(RAIZ,f);
-    if(!generada.test(f) || !fs.statSync(ruta).isDirectory()) continue;
-    const index = path.join(ruta,'index.html');
-    if(fs.existsSync(index) && fs.readFileSync(index,'utf8').includes(MARCA)){
-      fs.rmSync(ruta, {recursive:true, force:true});
-    }
-  }
+  /* carpetas de la estructura anterior (raíz) y de la actual (lineas/) */
+  limpiaCarpeta(RAIZ, true);
+  const lineasDir = path.join(RAIZ,CARPETA_LINEAS);
+  fs.mkdirSync(lineasDir, {recursive:true});
+  limpiaCarpeta(lineasDir, false);
 }
 
 function main(){
@@ -117,8 +128,8 @@ function main(){
     const html = plantilla
       .replaceAll('__LINEA__', id)
       .replaceAll('__NOMBRE__', meta.name.replace(/&/g,'&amp;').replace(/</g,'&lt;'));
-    fs.mkdirSync(path.join(RAIZ,id), {recursive:true});
-    fs.writeFileSync(path.join(RAIZ,id,'index.html'), html);
+    fs.mkdirSync(path.join(RAIZ,CARPETA_LINEAS,id), {recursive:true});
+    fs.writeFileSync(path.join(RAIZ,CARPETA_LINEAS,id,'index.html'), html);
   }
 
   fs.writeFileSync(path.join(RAIZ,'data','lineas.json'), JSON.stringify(maestro) + '\n');

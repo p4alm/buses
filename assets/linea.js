@@ -144,7 +144,7 @@
 
   mainEl.addEventListener('click', e=>{
     const home = e.target.closest('[data-home]');
-    if(home){ location.href = '../'; return; }
+    if(home){ location.href = '../../'; return; }
 
     const dirTab = e.target.closest('[data-dir]');
     if(dirTab){
@@ -180,7 +180,7 @@
     setInterval(B.tickClock, 30000);
     inicial();
     try{
-      state.linea = await B.loadJSON('../data/'+encodeURIComponent(ID)+'.json');
+      state.linea = await B.loadJSON('../../data/'+encodeURIComponent(ID)+'.json');
       const disponibles = B.availableDayTypes(state.linea, state.dir);
       state.dayType = disponibles.includes(B.todayDayType()) ? B.todayDayType() : (disponibles[0] || state.dayType);
       render();

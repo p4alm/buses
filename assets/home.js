@@ -33,7 +33,7 @@
 
   function renderLineaCard(lid, L){
     const color = L.color || '#888';
-    return '<a class="linecard'+(noData(L)?' nodata':'')+'" style="--line-color:'+B.escapeHtml(color)+'" href="'+encodeURIComponent(lid)+'/">'
+    return '<a class="linecard'+(noData(L)?' nodata':'')+'" style="--line-color:'+B.escapeHtml(color)+'" href="lineas/'+encodeURIComponent(lid)+'/">'
       + '<div class="badge" style="background:'+B.escapeHtml(color)+'">'+B.escapeHtml(lid)+'</div>'
       + '<div class="lname">'+B.escapeHtml(L.name)+'</div>'
       + '</a>';
