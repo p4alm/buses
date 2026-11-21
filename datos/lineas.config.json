@@ -1,0 +1,90 @@
+{
+  "orden": [
+    "31A",
+    "31B",
+    "31C",
+    "31D",
+    "32A",
+    "32B",
+    "33",
+    "34",
+    "35",
+    "36A",
+    "36B",
+    "36C",
+    "37",
+    "38"
+  ],
+  "lineas": {
+    "31A": {
+      "name": "Ceuti Murcia por Alguazas",
+      "color": "#3f7cac",
+      "url": "https://movibus.carm.es/linea/linea-31-ceuti-murcia-por-alguazas/"
+    },
+    "31B": {
+      "name": "Ceuti Murcia por Alguazas",
+      "color": "#5b9bd5",
+      "url": "https://movibus.carm.es/linea/linea-31-ceuti-murcia-por-alguazas/"
+    },
+    "31C": {
+      "name": "Ceuti Murcia por Lorqui",
+      "color": "#8a5fbf",
+      "url": "https://movibus.carm.es/linea/linea-31-ceuti-murcia-por-lorqui/"
+    },
+    "31D": {
+      "name": "Ceuti Murcia por Lorqui",
+      "color": "#b07cc6",
+      "url": "https://movibus.carm.es/linea/linea-31-ceuti-murcia-por-lorqui/"
+    },
+    "32A": {
+      "name": "Molina de Segura Murcia",
+      "color": "#e4572e",
+      "url": "https://movibus.carm.es/linea/linea-32a-molina-de-segura-murcia/"
+    },
+    "32B": {
+      "name": "Molina de Segura Murcia",
+      "color": "#f3a712",
+      "url": "https://movibus.carm.es/linea/linea-32b-molina-de-segura-murcia/"
+    },
+    "33": {
+      "name": "Molina de Segura Universidades Ucam",
+      "color": "#17bebb",
+      "url": "https://movibus.carm.es/linea/linea-33-molina-de-segura-universidades-ucam/"
+    },
+    "34": {
+      "name": "Las Torres de Cotillas Murcia",
+      "color": "#2e86ab",
+      "url": "https://movibus.carm.es/linea/linea-34-las-torres-de-cotillas-murcia/"
+    },
+    "35": {
+      "name": "Altorreal Murcia",
+      "color": "#c2467e",
+      "url": "https://movibus.carm.es/linea/linea-35-altorreal-murcia/"
+    },
+    "36A": {
+      "name": "Archena Murcia",
+      "color": "#588c7e",
+      "url": "https://movibus.carm.es/linea/linea-36-archena-murcia/"
+    },
+    "36B": {
+      "name": "Archena Murcia",
+      "color": "#c1666b",
+      "url": "https://movibus.carm.es/linea/linea-36-archena-murcia/"
+    },
+    "36C": {
+      "name": "Archena Murcia",
+      "color": "#d4a24e",
+      "url": "https://movibus.carm.es/linea/linea-36-archena-murcia/"
+    },
+    "37": {
+      "name": "La Alcayna Murcia",
+      "color": "#5aa06c",
+      "url": "https://movibus.carm.es/linea/linea-37-la-alcayna-murcia/"
+    },
+    "38": {
+      "name": "Torrealta Murcia",
+      "color": "#9b6bb5",
+      "url": "https://movibus.carm.es/linea/linea-38-torrealta-murcia/"
+    }
+  }
+}
